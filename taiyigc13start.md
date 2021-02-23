@@ -98,7 +98,7 @@ cd build
 source ~/.bashrc 
 source ~/.GC 
 ```
-a .bashrc template is here, copy it to your own home directory or copy it from baib's dir by **cp /work/ese-baib/.bashrc ~ **
+a .bashrc template is here, copy it to your own home directory or copy it from baib's dir by **cp** **/work/ese-baib/.bashrc** **~**
 ```
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -120,7 +120,7 @@ ulimit -m unlimited              # memoryuse
 ulimit -v unlimited              # vmemoryuse
 ulimit -l unlimited              # memorylocked
 ```
-a .gc template is here, copy it to your own home directory or or copy it from baib's dir by **cp /work/ese-baib/.GC ~ **\
+a .gc template is here, copy it to your own home directory or or copy it from baib's dir by **cp** **/work/ese-baib/.GC** **~**\
 note that spack is in baib's home directory, which is in no need to modify
 ```
 # .bashrc
