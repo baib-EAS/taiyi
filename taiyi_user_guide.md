@@ -27,4 +27,4 @@ e. ser—串行作业队列，运行时长限制为24小时，低优先级。
 |smp|360h|大内存|无限制|
 |debug|1h|调试|无限制|
 
-See more details at https://hpc.sustech.edu.cn/ 资料中的**太乙用户手册**。
+详见https://hpc.sustech.edu.cn/ 资料中的**太乙用户手册**。
