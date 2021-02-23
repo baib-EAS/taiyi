@@ -87,13 +87,18 @@ if you do not have a restart file, shut off restart fields in in **HEMCO_Config.
 ```
 see more at http://wiki.seas.harvard.edu/geos-chem/index.php/GEOS-Chem_configuration_files
 ### 8. build run environment
+first download configuration file in your home directory by
+```
+git clone https://github.com/baib-EAS/taiyi.git/.bashrc
+```
+
 do below in your run directory
 ```
 cd build
 source ~/.bashrc 
 source ~/.GC 
 ```
-a .bashrc template is here, copy it to your own home dir
+a .bashrc template is here, copy it to your own home directory or copy it from baib's dir by **cp /work/ese-baib/.bashrc ~**
 ```
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -115,7 +120,8 @@ ulimit -m unlimited              # memoryuse
 ulimit -v unlimited              # vmemoryuse
 ulimit -l unlimited              # memorylocked
 ```
-a .gc template is here, copy it to your own home directory, note that spack is in baib's home directory
+a .gc template is here, copy it to your own home directory or or copy it from baib's dir by **cp /work/ese-baib/.GC ~**\n
+note that spack is in baib's home directory, which is in no need to modify
 ```
 # .bashrc
 #==============================================================================
