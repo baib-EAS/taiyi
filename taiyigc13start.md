@@ -38,6 +38,11 @@ see more at  https://github.com/geoschem/geos-chem-cloud/issues/35\
 if you are in Zhu Lei’s group at Sustech\
 just start from here (spack is already installed)!!
 ********************************************************************
+File path you might need to know:
+```
+ls /data/ese-shul/data/ExtData
+```
+under this path, we have **CHEM_INPUTS,** **GEOSCHEM_RESTARTS,** and **HEMCO**, you may download meterological fields to your own directory and use them as below\
 ### 4. download Source Code in your GEOS-Chem directory ('GC' for me)
 ```
 cd GC
@@ -65,7 +70,6 @@ need to type ExtData directory for first time:
 ```
 /data/ese-shul/data/ExtData
 ```
-under this path, we have **CHEM_INPUTS,** **GEOSCHEM_RESTARTS,** and **HEMCO**, you may download meterological fields to your own directory and set path afterwards as below\
 now finish your options and set directory to be copied into\
 see more at http://wiki.seas.harvard.edu/geos-chem/index.php/Creating_run_directories_for_GEOS-Chem_13.0.0_and_later
 
