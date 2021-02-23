@@ -157,6 +157,7 @@ export SPACK_ROOT=/work/ese-baib/spack
 source $SPACK_ROOT/share/spack/setup-env.sh
 
 module purge
+module load intel/2018.3
 echo "Loading modules for compiler intel@18.0.3..."
 spack load perl%intel@18.0.3
 spack load flex%intel@18.0.3
