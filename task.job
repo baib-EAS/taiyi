@@ -1,0 +1,20 @@
+#!/bin/bash
+#BSUB -J TORERO
+#BSUB -q short
+#BSUB -n 40
+#BSUB -R "span[ptile=40]"
+#BSUB -W 360:00
+#BSUB -o run_%J.out
+#BSUB -e run_%J.err
+
+source ~/.GC
+source ~/.bashrc
+
+export OMP_NUM_THREADS=40
+export OMP_STACKSIZE=2gb
+
+cd /your/run/directory/
+
+time ./gcclassic >> GC.log
+
+exit 0
