@@ -1,5 +1,5 @@
 ## 太乙储存划分与队列使用简介
-> 联系方式：束蕾(* *), 白彬(*baib@mail.sustech.edu.cn*)\
+> 联系方式：束蕾(*shul@sustech.edu.cn*), 白彬(*baib@mail.sustech.edu.cn*)\
 > 更新时间: 2021/02/23
 
 ### 1.存储划分（详见用户手册4.1）
@@ -25,4 +25,5 @@ e. ser—串行作业队列，运行时长限制为24小时，低优先级。
 |ser|360h|串行|无限制|
 |smp|360h|大内存|无限制|
 |debug|1h|调试|无限制|
+
 See more details at https://hpc.sustech.edu.cn/ 资料中的**“太乙”用户手册**
