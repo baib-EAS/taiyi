@@ -231,7 +231,8 @@ time ./gcclassic >> GC.log
 
 exit 0
 ```
-### 10. check your task state
+### 10. check your task state and stop task
 ```
 bjobs
+bkill jobid
 ```
