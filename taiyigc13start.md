@@ -43,7 +43,7 @@ File path you might need to know at first:
 ```
 ls /data/ese-shul/data/ExtData
 ```
-under this path, we have **CHEM_INPUTS,** **GEOSCHEM_RESTARTS,** and **HEMCO**, you may download meterological fields to your own directory and use them as below\
+under this path, we have **CHEM_INPUTS,** **GEOSCHEM_RESTARTS,** and **HEMCO**, you may download meterological fields to your own directory and use them as below。
 ```
 cd GC
 git clone https://github.com/geoschem/GCClassic.git GCClassic.13.0.0
