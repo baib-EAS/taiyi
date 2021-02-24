@@ -92,11 +92,6 @@ if you do not have a restart file, shut off restart fields in in **HEMCO_Config.
 ```
 see more at http://wiki.seas.harvard.edu/geos-chem/index.php/GEOS-Chem_configuration_files
 ### 8. build run environment
-first download configuration file in your home directory by
-```
-git clone https://github.com/baib-EAS/taiyi.git/.bashrc
-```
-
 do below in your run directory
 ```
 cd build
